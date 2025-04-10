@@ -1,0 +1,106 @@
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Review Assignment
+   
+   Style Sheet for the Pandaisia Chocolates Monthly Specials
+   Author: Daniel Dameus
+   Date:  1/16/25 
+   
+   Filename: pc_specials.css
+
+*/
+
+/* Page Body Styles */
+body{
+   width: 95%;
+   left: auto;
+   right: auto;
+}
+
+
+
+/* Image Styles */
+img{
+   display: block;
+   width: 100%;
+}
+
+
+/* Horizontal Navigation Styles */
+li{
+   width: 16.66%;
+   float: left;
+   display: block;
+}
+a{
+   display: block;
+}
+
+
+/* Grid Styles */
+body{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-column: 20px;
+}
+
+body > header{
+   grid-column: 1/-1;
+}
+
+body > footer{
+   grid-column: 1/-1;
+}
+
+section#sub{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+/* Specials Styles */
+div.specials{
+   outline-width: 1px;
+   min-height: 400px;
+   outline-style: dashed;
+   background-color: rgb(71, 52, 29);
+}
+
+
+/* Award Styles */
+aside{
+   position: relative;
+   height: 650px;
+   overflow: scroll;
+}
+
+aside div{
+position: absolute;
+width: 30%;
+}
+
+aside div#award1{
+   top: 80px;
+   left: 5%;
+}
+
+aside div#award2{
+   top: 250px;
+   left: 60%;
+}
+
+aside div#award3{
+   top: 400px;
+   left: 20%;
+}
+
+aside div#award4{
+   top: 630px;
+   left: 45%;
+}
+
+aside div#award5{
+   top: 750px;
+   left: 5%;
+}
+
